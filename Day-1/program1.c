@@ -1,12 +1,13 @@
 #include<stdio.h>
-int main(){
-    int n,s=0;
+int main()
+{//opening main
+    int n,s=0;//initialising variables
     printf("enter number");
-    scanf("%d",&n);
+    scanf("%d",&n);//store input in variable
     for(int i=1;i<=n;i++)
-    {
+    {//opening for loop
         s=s+i;
-    }
-    printf("sum=%d",s);
+    }//closing for loop
+    printf("sum=%d",s);//calculated sum
     return 0;
-}
+}//closing main
