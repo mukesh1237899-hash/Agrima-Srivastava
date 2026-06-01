@@ -4,6 +4,10 @@ int main()
     int c=0,n;//initializing variables
     printf("enter number");
     scanf("%d",&n);//store input in variable
+    if(n==0)
+    {
+        c=1;
+    }
     while (n!=0)
     {//opening while loop
      n=n/10;
