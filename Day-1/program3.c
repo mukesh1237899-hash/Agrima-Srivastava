@@ -1,15 +1,13 @@
 #include<stdio.h>
 int main()
-{
-    int n;
+{//opening main
+    int n,p=1;//initialising
     printf("enter number");
-    scanf("%d",&n);
+    scanf("%d",&n);//store input in variables
     for(int i=1;i<=n;i++)
-    {
-        if(n%i==0)
-        printf("%d\n",i);
-        else
-        continue;
-    }
+    {//opening for loop
+        p=p*i;
+    }//closing for loop
+    printf("FACTORIAL OF NUMBER IS:%d",p);//FACTORIAL CALCULATED
     return 0;
-}
+}//closing main
