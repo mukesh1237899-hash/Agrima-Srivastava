@@ -4,7 +4,7 @@ int main()
 {//opening main
     int n,c=0;//intialising variable
     cout<<"enter number";
-    cin>>n;//taking input from keyboard
+    cin>>n;//taking input from user
     for(int i=1;i<=n;i++)//checking whether prime number or not
     {//opening for loop
         if(n%i==0)
