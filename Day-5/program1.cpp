@@ -4,7 +4,7 @@ int main()
 {//opening main
 int n,sum=0;//initialising variables
 cout<<"ENTER NUMBER";
-cin>>n;//input number from keyboard
+cin>>n;//input number from user
 for(int i=1;i<n;i++)
 {//opening for loop
     if(n%i==0)
